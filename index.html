@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./index.js">
+    </script>
+  <title>GLAMMAW</title> 
+</head>
+
+<body id="home">  
+  <nav class="navbar navbar-expand-md bg-light mobile" id="mobile-navbar">
+    <span>
+      <i class="fa fa-bars fa-lg hamburger fa-3x mobile" id="hamburger"></i>
+    </span>
+  </nav>
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right mobile" id="sidebar-wrapper">
+      <div class="sidebar-heading">
+        <h1 class="logo">Meador MaDe Inc.</h1>
+      </div>
+      <div class="list-group list-group-flush">
+        <a href="#home" id="side-home" class="list-group-item list-group-item-action bg-light">HOME</a>
+        <a href="#shop" id="side-shop" class="list-group-item list-group-item-action bg-light">SHOP</a>
+        <a href="#reviews" id="side-reviews" class="list-group-item list-group-item-action bg-light">REVIEWS</a>
+        <a href="#mission" id="side-mission" class="list-group-item list-group-item-action bg-light">MISSION</a>
+        <a href="#about" id="side-about" class="list-group-item list-group-item-action bg-light">ABOUT</a>
+        <a href="#contact" id="side-contact" class="list-group-item list-group-item-action bg-light">CONTACT</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <header>
+        
+      <nav class="navbar navbar-expand-md">
+        <div class="collapse navbar-collapse web" id="navbarNav">
+        <ul class="navbar-nav text-center mx-auto">
+          <li class="nav-item px-4 active">
+            <a id="nav-home" class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item px-4">
+            <a id="nav-shop" class="nav-link" href="#shop">SHOP</a>
+          </li>
+          <li class="nav-item px-4">
+            <a id="nav-reviews" class="nav-link" href="#reviews">REVIEWS</a>
+          </li>
+          <a class="navbar-brand nav-link web ml-5 disabled" href="#">
+            <h1 class="logo">Meador MaDe Inc.</h1>
+          </a>
+          <li class="nav-item px-4">
+            <a id="nav-mission" class="nav-link" href="#mission">MISSION</a>
+          </li>
+          <li class="nav-item px-4">
+            <a id="nav-about" class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item px-4">
+            <a id="nav-contact" class="nav-link" href="#contact">CONTACT</a>
+          </li> 
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="row">
+      <div class="col-md-4 mx-auto">
+        <div class="align-items-center">
+          <h1 class="text-center welcome">Welcome</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="row enter text-center mx-auto">
+      <div class="col-md-12">
+        <a href="#mission" class="smoothScroll">
+          <span id="work-btn">
+            <i class="fa fa-angle-double-down fa-3x"></i>
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="mission-container" id="mission">
+    <div class="row text-center mt-4 pt-5" id="Mmission">
+      <div class="col-10 mx-auto">
+          <h2 class="py-2">GLAMMAW! Mission Statement</h2>
+      </div>
+      <div class="col-10 col-lg-6 mx-auto pt-3"> 
+            <p>Lorem ipsum dolor sit amet consectetur 
+          adipisicing elit. Consequuntur fugit pariatur 
+          corporis animi, quidem fugiat accusamus. Quisquam 
+          incidunt tempora laboriosam officia laudantium 
+          totam ducimus dignissimos nulla quis consectetur?
+           Incidunt iste, officia accusantium, doloremque 
+           ducimus inventore numquam perferendis adipisci 
+           tempora nisi magni sit, nulla distinctio fugit 
+           culpa fuga animi voluptas sequi pariatur illum 
+           sed? Cumque temporibus quaerat distinctio suscipit 
+           nisi perspiciatis.</p>
+      </div>
+    </div>
+  </div>
+
+    <div class="container" id="shop">
+      <div class="row text-center py-5 my-5" id="Mshop">
+          <div class="col-11 col-sm-8 col-md-4 about-me mx-auto">
+            <img src="./resources/css/about-img-1.jpg" class="images p-2">
+            <h5 class="py-4">THE GLAMMAW SHOP</h5>
+            <p class="text-center">Lorem ipsum dolor sit amet 
+              consectetur adipisicing elit. Cumque hic a mollitia 
+              ipsa consequatur placeat sunt saepe minus impedit nihil?</p>
+            <a href="">
+              <button class="my-5">SHOP NOW</button>
+            </a>
+          </div>
+          <div class="col-11 col-sm-8 col-md-4 about-me mx-auto">
+            <img src="./resources/css/about-img-2.jpg" class="images p-2">
+            <h5 class="py-4">WORK WITH GLAMMAW</h5>
+            <p class="text-center">Lorem ipsum dolor sit amet 
+              consectetur adipisicing elit. Cumque hic a mollitia 
+              ipsa consequatur placeat sunt saepe minus impedit nihil?</p>
+            <a href="">
+              <button class="my-5">LEARN MORE</button>
+            </a>
+          </div>
+
+          <div class="col-11 col-sm-8 col-md-4 about-me mx-auto">
+            <img src="./resources/css/about-img-3.jpg" class="images p-2">
+            <h5 class="py-4">READ THE GLAMMAW BLOG</h5>
+            <p class="text-center">Lorem ipsum dolor sit amet 
+              consectetur adipisicing elit. Cumque hic a mollitia 
+              ipsa consequatur placeat sunt saepe minus impedit nihil?</p>
+            <a href="">
+              <button class="my-5">CHECK IT OUT!</button>
+            </a>
+          </div>
+
+      </div>
+    </div>
+
+  <div class="main mb-5">
+    <div class="row">
+      <div class="col col-sm-10 col-md-10 col-lg-8 mx-auto">
+        <div class="align-items-center">
+          <div class="mid-banner-info p-3">
+            <p class="text-center">What you really need is a brand that's beautiful yet strategic.
+              We've created and perfected every detail of our design process,
+              leaving you time and freedom to focus on building your business.
+              <br><button class="my-3">FIND OUT MORE!</button>
+            </p>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container" id="about"> 
+      <div class="row" id="Mabout">
+        <div class="col-11 col-sm-10 col-md-6 col-lg-5 mx-auto mb-5 text-center">
+          <img src="./resources/css/about-me.jpg" alt="Dierdre Meador" id="owner-img">
+        </div>
+        <div class="col-11 col-sm-10 col-md-6 text-center mx-auto">
+          <h3>Hi, I'm Glammaw!</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Quas qui nemo itaque voluptatum sed similique 
+            impedit quasi animi quia nostrum maxime aliquam quisquam culpa 
+            commodi iure sit iusto, fuga nesciunt sunt, adipisci, nulla cum 
+            tempore sequi totam! Quisquam illum sequi eveniet odit tempora 
+            quibusdam esse at officia in animi, nam numquam, non quis et fuga. 
+            Laudantium dicta quasi facilis enim. </p>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="article" id="reviews">
+    <div class="row" id="Mreviews">
+      <div class="col col-sm-10 col-md-10 col-lg-8 mx-auto">
+        <div class="align-items-center">
+          <div class="carousel-reviews-info p-4">
+            <h3 class="text-center">CUSTOMER REVIEWS</h3>
+            <div id="carouselContent" class="carousel slide" data-ride="carousel" data-interval="6000">
+              <div class="carousel-inner pt-3" role="listbox">
+                  <div class="carousel-item active text-center p-4">
+                      <p>"Sometimes I'll start a sentence 
+                        and I don't even know where it's going. 
+                        I just hope I find it along the way."</p> 
+                      <p>-Michael Scott</p>
+                  </div>
+                  <div class="carousel-item text-center p-4">
+                      <p>"I talk a lot, so I've learned to just tune myself out..."</p>
+                      <p>-Kelly Kapoor</p>
+                  </div>
+                  <div class="carousel-item text-center p-4">  
+                    <p>"I don't care what they say about me. I just want to eat."</p>
+                    <p>-Pam Beesly</p>
+                  </div>
+                  <div class="carousel-item text-center p-4">
+                      
+                    <p>"Oh, it is on, like a prawn who yawns at dawn."</p>
+                    <p>-Andy Bernard</p>
+                  </div>
+                  <div class="carousel-item text-center p-4">
+                    <p>"Whenever I'm about to do something, I think,
+                    'Would an idiot do that?' and if they would, 
+                    I do not do that thing."</p>
+                    <p>-Dwight Schrute</p>
+                  </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section text-center" id="contact">
+    <div class="row" id="Mcontact">
+      <div class="col-10 col-md-8 col-lg-6 mx-auto">
+        <div class="align-items-center">
+          <div class="contact-info text-center">
+            <a href="mailto:bmeador08@gmail.com">
+              <img src="./resources/css/email-icon.png" class="e-mail my-5">
+            </a>
+            <p>Have a question or want to place an order?<br>
+              Shoot us an <a href="mailto:bmeador08@gmail.com">e-mail</a>!</p>
+          </div>          
+        </div>
+      </div>
+    </div>
+    <a href="#home" id="top-icon">Back to top</a>
+  </div>
+
+  <footer class="text-center py-1">
+    <p class="mt-1">
+      &copy; Copyright <span class="">GLAMMAW</span> 2020. 
+      Site Design and Development by: 
+      <a href="https://al-byte.github.io/Portfolio/"> 
+        Alex Washington</a> 
+    </p>
+  </footer>
+
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  
+  <!-- Menu Toggle Script -->
+  
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos || currentScrollPos === 0 && screen.width < 767.98) {
+        document.getElementById("mobile-navbar").style.top = "0";
+      } else {
+        document.getElementById("mobile-navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+
+      // Get the sideNav
+      var sideNav = document.getElementById('mobile-navbar');
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == sideNav) {
+          modal.style.display = "none";
+        }
+      }
+
+    </script>
+
+</body>
+
+</html>
