@@ -19,6 +19,8 @@
     font-family: SFFlorenceSans;
   }
 
+
+
   
   /*Sidebar Nav Start*/
   
@@ -108,7 +110,7 @@
     font-size: 36px;
   }
 
-  .navbar h1 {
+  h1 {
     font-family: 'Malvinas';
     font-weight: bold;
     color: black;
@@ -151,7 +153,7 @@
 
   
   header {
-      background-image: url('./jumbotron.jpg');
+      background-image: url('./banner.jpg');
       background-repeat: no-repeat;
       background-size: cover;
   }
@@ -162,7 +164,8 @@
   }
   
   .welcome {
-    margin-top: -30%;
+    color: #fff;
+    font-size: 96px;
   }
   
   #work-btn, #work-btn-mobile {
@@ -222,6 +225,12 @@
   
   .pink {
     color: rgb(254, 237, 230);
+  }
+
+  .mission-container {
+    background-image: url('./about-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .main {
@@ -307,7 +316,7 @@
   }
   
   /* Broad Range Queries */
-  @media (min-width: 319.98px) and (max-height: 375px) { 
+ /* @media (min-width: 319.98px) and (max-height: 375px) { 
     
     .carousel-reviews-info {
         width: 100%;
@@ -315,11 +324,22 @@
         height: auto;
         min-height: 300px;
     }
-  }
+  }*/
   
   @media (min-width: 767.98px) {
+
     #about h3, #about p {
       text-align: left !important;
+    }
+
+    .web-nav {
+      position: fixed;
+      background-color: white;
+      width: 100vw;
+    }
+
+    .welcome {
+      margin-top: 200px;
     }
   
   }
@@ -337,6 +357,10 @@
      #sidebar-wrapper {
        display: block !important;
      }
+
+     .welcome {
+      margin-top: 25%;
+    }
 
   
   }

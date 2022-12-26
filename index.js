@@ -28,10 +28,12 @@ $(document).ready(function() {
         $('html, body').animate({
                 scrollTop: $("#home").position().top-50
             }, 1000);
+            $(".push-wrapper").toggleClass('push');
+
     });
     $("#nav-shop").click(function(){            
         $('html, body').animate({
-                scrollTop: $("#shop").position().top-50
+                scrollTop: $("#shop").position().top-100
             }, 1000);
     });
     $("#nav-reviews").click(function(){            
@@ -41,7 +43,7 @@ $(document).ready(function() {
     });
     $("#nav-about").click(function(){            
         $('html, body').animate({
-                scrollTop: $("#about").position().top-100
+                scrollTop: $("#about").position().top-80
             }, 1000);
     });
     $("#nav-mission").click(function(){            
@@ -65,21 +67,13 @@ $(document).ready(function() {
                 scrollTop: $("#shop").position().top-50
             }, 1000);
     });
-    $("side-reviews").click(function(){            
-        $('html, body').animate({
-                scrollTop: $("#reviews").position().top-0
-            }, 1000);
-    });
+
     $("side-about").click(function(){            
         $('html, body').animate({
                 scrollTop: $("#about").position().top-100
             }, 1000);
     });
-    $("side-mission").click(function(){            
-        $('html, body').animate({
-                scrollTop: $("#mission").position().top-20
-            }, 1000);
-    });
+
     $("side-contact").click(function(){            
         $('html, body').animate({
                 scrollTop: $("#contact").position().top-70
