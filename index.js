@@ -26,7 +26,7 @@ $(document).ready(function() {
       });
     $("#nav-home").click(function(){            
         $('html, body').animate({
-                scrollTop: $("#home").position().top-50
+                scrollTop: $("#body").position().top-50
             }, 1000);
             $(".push-wrapper").toggleClass('push');
 
@@ -34,6 +34,11 @@ $(document).ready(function() {
     $("#nav-shop").click(function(){            
         $('html, body').animate({
                 scrollTop: $("#shop").position().top-100
+            }, 1000);
+    });
+    $("#nav-gallery").click(function(){            
+        $('html, body').animate({
+                scrollTop: $("#gallery").position().top-80
             }, 1000);
     });
     $("#nav-reviews").click(function(){            
@@ -59,12 +64,18 @@ $(document).ready(function() {
 
     $("side-home").click(function(){            
         $('html, body').animate({
-                scrollTop: $("#home").position().top-50
+                scrollTop: $("#body").position().top-50
             }, 1000);
     });
     $("side-shop").click(function(){            
         $('html, body').animate({
                 scrollTop: $("#shop").position().top-50
+            }, 1000);
+    });
+
+    $("side-gallery").click(function(){            
+        $('html, body').animate({
+                scrollTop: $("#gallery").position().top-50
             }, 1000);
     });
 
@@ -82,8 +93,10 @@ $(document).ready(function() {
 
     $("#top-icon").click(function(){            
         $('html, body').animate({
-                scrollTop: $("#home").position().top-0
+                scrollTop: $("#body").position().top-0
             }, 1000);
     });
+
     
 })
+
