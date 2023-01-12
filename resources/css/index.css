@@ -137,7 +137,7 @@
     
     nav li a:hover {
 
-      color: red !important;
+      color: rgb(25, 197, 114) !important;
       transition: 0.3s linear;
     } 
     
@@ -299,7 +299,7 @@
   }
 
   .current {
-    color: red !important;
+    color: rgb(25, 197, 114) !important;
   }
 
   
