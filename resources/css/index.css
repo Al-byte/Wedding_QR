@@ -308,7 +308,13 @@
     max-width: 30%;
   }
 
+  .grid-product__title-inner {
+    font-size: 28px !important;
+  }
 
+  .grid-product__price-value, .ec-price-item {
+    font-size: 18px !important;
+  }
 
   /*Gallery modal popup
   .img-size{
