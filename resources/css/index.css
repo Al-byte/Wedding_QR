@@ -13,6 +13,10 @@
   #logo {
       width: 100%;
   }
+
+  .logo h1 {
+    font-size: 32px !important;
+  }
   
   html, body {
     overflow-x: hidden;
@@ -119,6 +123,7 @@
     font-family: 'Malvinas';
     font-weight: bold;
     color: black;
+    font-size: 64px;
   }
   
   .align-items-center {
