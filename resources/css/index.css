@@ -64,6 +64,10 @@
   #wrapper.toggled #sidebar-wrapper  {
     margin-left: 0;
   }
+
+  .modal-title {
+    font-size: 56px;
+  }
   
   @media (min-width: 768px) {
     
@@ -124,6 +128,12 @@
     font-weight: bold;
     color: black;
     font-size: 64px;
+  }
+
+  .italic {
+    font-family: 'Malvinas';
+    font-weight: bold;
+    font-size: 28px;
   }
   
   .align-items-center {
@@ -240,6 +250,10 @@
   
   p {
     line-height: 1.8;
+  }
+
+  figcaption {
+    font-weight: bold;
   }
   
   .pink {
@@ -392,10 +406,18 @@
       margin-top: 400px;
       margin: 0 auto;
     }
+
+    .modal-title {
+      font-size: 36px;
+    }
+
+
   }
 
   @media (max-width: 575.98px) {
-
+    .modal-title {
+      font-size: 42px;
+    }
   }
 
   
@@ -434,6 +456,7 @@
      .welcome {
       font-size: 48px;
     }
+    
 
 
   
@@ -589,6 +612,7 @@
     .enter {
       top: 70vh !important;
     }
+    
   
   }
   
@@ -636,6 +660,10 @@
   
     .enter {
       top: 50vh;
+    }
+
+    .modal-title {
+      font-size: 48px;
     }
   }
   
