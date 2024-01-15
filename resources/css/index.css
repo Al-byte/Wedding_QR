@@ -14,6 +14,10 @@
       width: 100%;
   }
 
+  .hide {
+    display: none !important;
+  }
+
   .logo h1 {
     font-size: 32px !important;
   }
@@ -317,11 +321,30 @@
     height: 65vh;
   }
 
-  .current {
+  .current, .active {
     color: rgb(25, 197, 114) !important;
   }
 
-  
+  .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: rgb(25, 197, 114);
+    border-color: rgb(25, 197, 114);
+}
+
+  .active {
+    background-color: white !important;
+  }
+
+  .page-link {
+    background-color: white;
+    color: black !important;
+  }
+
+  #shopContainerTwo, #shopContainerThree {
+    display: none;
+  }
+
   .e-mail {
     width: 100%;
     max-width: 30%;

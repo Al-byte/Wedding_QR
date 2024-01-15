@@ -15,6 +15,66 @@ $(document).ready(function() {
         $('#hamburger').addClass('fa-bars');
 
     });
+
+    $('#pageOne').on('click', function(){
+        $('#pagePrev').addClass('disabled');
+        $('#pageOne').addClass('active');
+        $('#pageTwo').removeClass('active');
+        $('#pageThree').removeClass('active');
+        $('#pageFour').removeClass('active');
+        $('#shopContainerOne').removeClass('hide');
+        $('#shopContainerTwo').addClass('hide');
+        $('#shopContainerThree').addClass('hide');
+        $('#shopContainerFour').addClass('hide');
+        $('#pageNext').removeClass('disabled');
+
+
+    });
+
+    $('#pageTwo').on('click', function(){
+        $('#pagePrev').removeClass('disabled');
+        $('#pageTwo').addClass('active');
+        $('#pageOne').removeClass('active');
+        $('#pageThree').removeClass('active');
+        $('#pageFour').removeClass('active');
+        $('#shopContainerOne').addClass('hide');
+        $('#shopContainerTwo').removeClass('hide');
+        $('#shopContainerThree').addClass('hide');
+        $('#shopContainerFour').addClass('hide');
+        $('#pageNext').removeClass('disabled');
+
+    });
+
+    $('#pageThree').on('click', function(){
+        $('#pagePrev').removeClass('disabled');
+        $('#pageThree').addClass('active');
+        $('#pageOne').removeClass('active');
+        $('#pageTwo').removeClass('active');
+        $('#pageFour').removeClass('active');
+        $('#shopContainerOne').addClass('hide');
+        $('#shopContainerTwo').addClass('hide');
+        $('#shopContainerThree').removeClass('hide');
+        $('#shopContainerFour').addClass('hide');
+        $('#pageNext').removeClass('disabled');
+
+    });
+
+    $('#pageFour').on('click', function(){
+        $('#pagePrev').removeClass('disabled');
+        $('#pageFour').addClass('active');
+        $('#pageOne').removeClass('active');
+        $('#pageTwo').removeClass('active');
+        $('#pageThree').removeClass('active');
+        $('#shopContainerOne').addClass('hide');
+        $('#shopContainerTwo').addClass('hide');
+        $('#shopContainerThree').addClass('hide');
+        $('#shopContainerFour').removeClass('hide');
+        $('#pageNext').addClass('disabled');
+
+    });
+
+    
+
     $("#hamburger").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
@@ -96,6 +156,7 @@ $(document).ready(function() {
                 scrollTop: $("#body").position().top-0
             }, 1000);
     });
+
 
     
 })
