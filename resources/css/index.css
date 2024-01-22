@@ -158,7 +158,13 @@
 
       color: rgb(25, 197, 114) !important;
       transition: 0.3s linear;
-    } 
+    }
+    
+    #pagination li a:hover {
+
+      color: white !important;
+      transition: 0.3s linear;
+    }
     
     #navigation {
       width: 100%;    
@@ -323,6 +329,14 @@
 
   .current, .active {
     color: rgb(25, 197, 114) !important;
+  }
+
+  select:focus{
+    color:#333333;
+    border:10px solid red;
+    border:none!important;
+    outline:none!important;
+    box-shadow: none!important;
   }
 
   .page-item.active .page-link {
