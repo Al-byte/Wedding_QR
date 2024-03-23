@@ -94,23 +94,24 @@ $(document).ready(function() {
         $('#shopContainerTwo').addClass('hide');
         $('#shopContainerThree').removeClass('hide');
         //$('#shopContainerFour').addClass('hide');
-        $('.pageNext').removeClass('disabled');
+        //$('.pageNext').removeClass('disabled');
         $('#paginationThree').removeClass('hide');
+        //Delete line below to allow next page pagination 
+        $('.pageNext').addClass('disabled');
     });
 
-    $('#pageNextThree').on('click', function(){
-        $('.pagePrev').removeClass('disabled');
+    //$('#pageNextThree').on('click', function(){
+        //$('.pagePrev').removeClass('disabled');
         //$('.pageFour').addClass('active');
-        $('.pageOne').removeClass('active');
-        $('.pageTwo').removeClass('active');
-        $('.pageThree').removeClass('active');
-        $('#shopContainerOne').addClass('hide');
-        $('#shopContainerTwo').addClass('hide');
-        $('#shopContainerThree').addClass('hide');
+        //$('.pageOne').removeClass('active');
+        //$('.pageTwo').removeClass('active');
+        //$('.pageThree').removeClass('active');
+        //$('#shopContainerOne').addClass('hide');
+        //$('#shopContainerTwo').addClass('hide');
+        //$('#shopContainerThree').addClass('hide');
         //$('#shopContainerFour').removeClass('hide');
-        $('.pageNext').addClass('disabled');
-        //$('#paginationFour').removeClass('hide');
-    });
+        //$('.pageNext').addClass('disabled');
+        //$('#paginationFour').removeClass('hide');});
 
     $('.pageThree').on('click', function(){
         $('.pagePrev').removeClass('disabled');
