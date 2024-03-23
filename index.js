@@ -21,11 +21,11 @@ $(document).ready(function() {
         $('.pageOne').addClass('active');
         $('.pageTwo').removeClass('active');
         $('.pageThree').removeClass('active');
-        $('.pageFour').removeClass('active');
+        //$('.pageFour').removeClass('active');
         $('#shopContainerOne').removeClass('hide');
         $('#shopContainerTwo').addClass('hide');
         $('#shopContainerThree').addClass('hide');
-        $('#shopContainerFour').addClass('hide');
+        //$('#shopContainerFour').addClass('hide');
         $('.pageNext').removeClass('disabled');
     });
 
@@ -34,11 +34,11 @@ $(document).ready(function() {
         $('.pageTwo').addClass('active');
         $('.pageOne').removeClass('active');
         $('.pageThree').removeClass('active');
-        $('.pageFour').removeClass('active');
+        //$('.pageFour').removeClass('active');
         $('#shopContainerOne').addClass('hide');
         $('#shopContainerTwo').removeClass('hide');
         $('#shopContainerThree').addClass('hide');
-        $('#shopContainerFour').addClass('hide');
+        //$('#shopContainerFour').addClass('hide');
         $('.pageNext').removeClass('disabled');
         $('#paginationTwo').removeClass('hide');
     });
@@ -48,11 +48,11 @@ $(document).ready(function() {
         $('.pageOne').addClass('active');
         $('.pageTwo').removeClass('active');
         $('.pageThree').removeClass('active');
-        $('.pageFour').removeClass('active');
+        //$('.pageFour').removeClass('active');
         $('#shopContainerOne').removeClass('hide');
         $('#shopContainerTwo').addClass('hide');
         $('#shopContainerThree').addClass('hide');
-        $('#shopContainerFour').addClass('hide');
+        //$('#shopContainerFour').addClass('hide');
         $('.pageNext').removeClass('disabled');
     });
 
@@ -61,11 +61,11 @@ $(document).ready(function() {
         $('.pageTwo').addClass('active');
         $('.pageOne').removeClass('active');
         $('.pageThree').removeClass('active');
-        $('.pageFour').removeClass('active');
+        //$('.pageFour').removeClass('active');
         $('#shopContainerOne').addClass('hide');
         $('#shopContainerTwo').removeClass('hide');
         $('#shopContainerThree').addClass('hide');
-        $('#shopContainerFour').addClass('hide');
+        //$('#shopContainerFour').addClass('hide');
         $('.pageNext').removeClass('disabled');
         $('#paginationTwo').removeClass('hide');
     });
@@ -75,11 +75,11 @@ $(document).ready(function() {
         $('.pageTwo').addClass('active');
         $('.pageOne').removeClass('active');
         $('.pageThree').removeClass('active');
-        $('.pageFour').removeClass('active');
+        //$('.pageFour').removeClass('active');
         $('#shopContainerOne').addClass('hide');
         $('#shopContainerTwo').removeClass('hide');
         $('#shopContainerThree').addClass('hide');
-        $('#shopContainerFour').addClass('hide');
+        //$('#shopContainerFour').addClass('hide');
         $('.pageNext').removeClass('disabled');
         $('#paginationTwo').removeClass('hide');
     });
@@ -89,27 +89,27 @@ $(document).ready(function() {
         $('.pageThree').addClass('active');
         $('.pageOne').removeClass('active');
         $('.pageTwo').removeClass('active');
-        $('.pageFour').removeClass('active');
+        //$('.pageFour').removeClass('active');
         $('#shopContainerOne').addClass('hide');
         $('#shopContainerTwo').addClass('hide');
         $('#shopContainerThree').removeClass('hide');
-        $('#shopContainerFour').addClass('hide');
+        //$('#shopContainerFour').addClass('hide');
         $('.pageNext').removeClass('disabled');
         $('#paginationThree').removeClass('hide');
     });
 
     $('#pageNextThree').on('click', function(){
         $('.pagePrev').removeClass('disabled');
-        $('.pageFour').addClass('active');
+        //$('.pageFour').addClass('active');
         $('.pageOne').removeClass('active');
         $('.pageTwo').removeClass('active');
         $('.pageThree').removeClass('active');
         $('#shopContainerOne').addClass('hide');
         $('#shopContainerTwo').addClass('hide');
         $('#shopContainerThree').addClass('hide');
-        $('#shopContainerFour').removeClass('hide');
+        //$('#shopContainerFour').removeClass('hide');
         $('.pageNext').addClass('disabled');
-        $('#paginationFour').removeClass('hide');
+        //$('#paginationFour').removeClass('hide');
     });
 
     $('.pageThree').on('click', function(){
@@ -117,44 +117,42 @@ $(document).ready(function() {
         $('.pageThree').addClass('active');
         $('.pageOne').removeClass('active');
         $('.pageTwo').removeClass('active');
-        $('.pageFour').removeClass('active');
+        //$('.pageFour').removeClass('active');
         $('#shopContainerOne').addClass('hide');
         $('#shopContainerTwo').addClass('hide');
         $('#shopContainerThree').removeClass('hide');
-        $('#shopContainerFour').addClass('hide');
-        $('.pageNext').removeClass('disabled');
+        //$('#shopContainerFour').addClass('hide');
+        //$('.pageNext').removeClass('disabled');
         $('#paginationThree').removeClass('hide');
-
-    });
-
-    $('#pagePrevFour').on('click', function(){
-        $('.pagePrev').removeClass('disabled');
-        $('.pageThree').addClass('active');
-        $('.pageOne').removeClass('active');
-        $('.pageTwo').removeClass('active');
-        $('.pageFour').removeClass('active');
-        $('#shopContainerOne').addClass('hide');
-        $('#shopContainerTwo').addClass('hide');
-        $('#shopContainerThree').removeClass('hide');
-        $('#shopContainerFour').addClass('hide');
-        $('.pageNext').removeClass('disabled');
-        $('#paginationThree').removeClass('hide');
-
-    });
-
-    $('.pageFour').on('click', function(){
-        $('.pagePrev').removeClass('disabled');
-        $('.pageFour').addClass('active');
-        $('.pageOne').removeClass('active');
-        $('.pageTwo').removeClass('active');
-        $('.pageThree').removeClass('active');
-        $('#shopContainerOne').addClass('hide');
-        $('#shopContainerTwo').addClass('hide');
-        $('#shopContainerThree').addClass('hide');
-        $('#shopContainerFour').removeClass('hide');
         $('.pageNext').addClass('disabled');
-        $('#paginationFour').removeClass('hide');
+
     });
+
+//    $('#pagePrevFour').on('click', function(){
+  //      $('.pagePrev').removeClass('disabled');
+    //    $('.pageThree').addClass('active');
+      //  $('.pageOne').removeClass('active');
+        //$('.pageTwo').removeClass('active');
+        //$('.pageFour').removeClass('active');
+        //$('#shopContainerOne').addClass('hide');
+        //$('#shopContainerTwo').addClass('hide');
+        //$('#shopContainerThree').removeClass('hide');
+        //$('#shopContainerFour').addClass('hide');
+        //$('.pageNext').removeClass('disabled');
+        //$('#paginationThree').removeClass('hide');});
+
+    //$('.pageFour').on('click', function(){
+        //$('.pagePrev').removeClass('disabled');
+        //$('.pageFour').addClass('active');
+        //$('.pageOne').removeClass('active');
+        //$('.pageTwo').removeClass('active');
+        //$('.pageThree').removeClass('active');
+        //$('#shopContainerOne').addClass('hide');
+        //$('#shopContainerTwo').addClass('hide');
+        //$('#shopContainerThree').addClass('hide');
+        //$('#shopContainerFour').removeClass('hide');
+        //$('.pageNext').addClass('disabled');
+        //$('#paginationFour').removeClass('hide');});
 
     
 
