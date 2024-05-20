@@ -26,12 +26,31 @@
     <!-- Page Content -->
     <div id="page-content-wrapper">
       <header>
-        
+        <div class="mobile_nav mobile">
+
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <h1 class= "mobile-nav-title">Alex & Anneliese</h1>
+            <a href="https://withjoy.com/alex-and-anneliese/welcome" class="mobile-nav-link">Home</a>
+            <a href="https://withjoy.com/alex-and-anneliese/story" class="mobile-nav-link">Our Story</a>
+            <a href="https://withjoy.com/alex-and-anneliese/schedule" class="mobile-nav-link">Schedule</a>
+            <a href="https://withjoy.com/alex-and-anneliese/travel" class="mobile-nav-link">Travel</a>
+            <a href="https://withjoy.com/alex-and-anneliese/registry" class="mobile-nav-link">Registry</a>
+            <!--<a href="" class="mobile-nav-link">RSVP</a>-->
+            <a href="https://withjoy.com/alex-and-anneliese/faq" class="mobile-nav-link">Q & A</a>
+            <!--<div class="col-2"><a href="" class="mobile-nav-link">Wedding Party</a>-->
+            <a href="https://withjoy.com/alex-and-anneliese/moments" class="mobile-nav-link">Moments</a>
+            <a href="https://withjoy.com/alex-and-anneliese/app" class="mobile-nav-link">Get the app</a>
+          </div>      
+      </div>
+      
         <div class="row d-flex justify-content-center">
-          <div class="col-12">
-            <img src="./resources/css/banner_mobile.png" alt="" class="w-100 mobile">
+          <div class="col-12 col-md-11">
+            <img src="./resources/css/banner_mobile.png" id="banner_mobile" class="w-100 mobile">
           </div>
-        
+          <div class="col-12">
+            <i class="fa fa-sharp fa-thin fa-bars mobile" onclick="openNav()"><span class="ml-2">MENU</span></i>     
+          </div>
           <div class="col-8">
             <h1 class= "page-title section-title text-center">Alex & Anneliese</h1>
           </div>
@@ -53,7 +72,7 @@
             </div>-->
             
             <div class="row d-flex justify-content-center text-center ">
-              <div class="col-12 col-xl-7">
+              <div class="col-12 col-md-11 col-xl-7">
                 <img src="./resources/css/main-img.jpg" alt="" class="w-100 my-5">
                 <h2 class="section-title text-center">Things To Do</h2>
               </div>
@@ -62,6 +81,213 @@
                   the restaurants and shops. Below are some of our favorite activities and food spots around the area.</p>
               </div>
             </div>
+
+            <!--Accordion Start-->
+
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Restaurants
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+            <!--Section Start-->
+            
+            <!--Section Heading Start-->
+            <div class="row d-flex justify-content-center">
+              <div class="col-12 col-md-11 col-lg-12 col-xl-7">
+                <h2 class="sub-section">Restaurants</h2>
+              </div>
+            </div>
+            <!--Section Heading End-->
+
+            <!--Location Start-->
+            <div class="row d-flex flex-wrap justify-content-center">
+              <div class="col-12 col-md-11 col-lg-6 col-xl-7">
+                <h4>Location Name</h4>
+                <img src="./resources/css/restaurants/restaurant.jpg" alt="" class="w-100 mt-3">    
+              </div>
+              <div class="col-12 col-md-11 col-lg-6 col-xl-7">
+                <p class="act_descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Laborum, iusto maxime nihil corporis aperiam vero provident aut incidunt 
+                  non sit consequatur similique sequi consectetur! Non blanditiis officia enim 
+                  nulla consequuntur et ipsam quas error temporibus repellendus, voluptatibus cumque, laborum pariatur.</p>
+              </div>
+            </div>
+            <div class="row justify-content-center logistics text-center">
+              <div class="col-10 col-md-3 col-lg-4 col-xl-12"><a href="">www.website.com</a></div>
+              <div class="col-10 col-md-3 col-lg-4 col-xl-12"><a href="" id="address">123 Fake Street <br>Orlando, FL 32819</a></div>
+              <div class="col-10 col-md-3 col-lg-4 col-xl-12"><a href="">(407) 555-5555</a></div>
+            </div>
+            <!--Location End-->
+
+            <div class="row d-flex justify-content-center">
+              <div class="col-10 col-md-6 my-3">
+                <hr>
+              </div>
+            </div>
+
+            <!--Section End-->
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Theme Parks
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                                <!--Section Start-->
+            
+            <!--Section Heading Start-->
+            <div class="row d-flex justify-content-center">
+              <div class="col-12 col-md-11 col-lg-12 col-xl-7">
+                <h2 class="sub-section">Theme Parks</h2>
+              </div>
+            </div>
+            <!--Section Heading End-->
+
+            <!--Location Start-->
+            <div class="row d-flex flex-wrap justify-content-center">
+              <div class="col-12 col-md-11 col-lg-6 col-xl-7">
+                <h4>Location Name</h4>
+                <img src="./resources/css/theme_parks/theme_parks.jpg" alt="" class="w-100 mt-3">    
+              </div>
+              <div class="col-12 col-md-11 col-lg-6 col-xl-7">
+                <p class="act_descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Laborum, iusto maxime nihil corporis aperiam vero provident aut incidunt 
+                  non sit consequatur similique sequi consectetur! Non blanditiis officia enim 
+                  nulla consequuntur et ipsam quas error temporibus repellendus, voluptatibus cumque, laborum pariatur.</p>
+              </div>
+            </div>
+            <div class="row justify-content-center logistics text-center">
+              <div class="col-10 col-md-3 col-lg-4 col-xl-12"><a href="">www.website.com</a></div>
+              <div class="col-10 col-md-3 col-lg-4 col-xl-12"><a href="" id="address">123 Fake Street <br>Orlando, FL 32819</a></div>
+              <div class="col-10 col-md-3 col-lg-4 col-xl-12"><a href="">(407) 555-5555</a></div>
+            </div>
+            <!--Location End-->
+
+            <div class="row d-flex justify-content-center">
+              <div class="col-10 col-md-6 my-3">
+                <hr>
+              </div>
+            </div>
+            
+            <!--Section End-->
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Outdoors
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                                <!--Section Start-->
+            
+            <!--Section Heading Start-->
+            <div class="row d-flex justify-content-center">
+              <div class="col-12 col-md-11 col-lg-12 col-xl-7">
+                <h2 class="sub-section">Outdoors</h2>
+              </div>
+            </div>
+            <!--Section Heading End-->
+
+            <!--Location Start-->
+            <div class="row d-flex flex-wrap justify-content-center">
+              <div class="col-12 col-md-11 col-lg-6 col-xl-7">
+                <h4>Location Name</h4>
+                <img src="./resources/css/outdoors/outdoors.jpg" alt="" class="w-100 mt-3">    
+              </div>
+              <div class="col-12 col-md-11 col-lg-6 col-xl-7">
+                <p class="act_descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Laborum, iusto maxime nihil corporis aperiam vero provident aut incidunt 
+                  non sit consequatur similique sequi consectetur! Non blanditiis officia enim 
+                  nulla consequuntur et ipsam quas error temporibus repellendus, voluptatibus cumque, laborum pariatur.</p>
+              </div>
+            </div>
+            <div class="row justify-content-center logistics text-center">
+              <div class="col-10 col-md-3 col-lg-4 col-xl-12"><a href="">www.website.com</a></div>
+              <div class="col-10 col-md-3 col-lg-4 col-xl-12"><a href="" id="address">123 Fake Street <br>Orlando, FL 32819</a></div>
+              <div class="col-10 col-md-3 col-lg-4 col-xl-12"><a href="">(407) 555-5555</a></div>
+            </div>
+            <!--Location End-->
+
+            <div class="row d-flex justify-content-center">
+              <div class="col-10 col-md-6 my-3">
+                <hr>
+              </div>
+            </div>
+            
+            <!--Section End-->
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Other Activities
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                  <div class="card-body">
+                                <!--Section Start-->
+            
+            <!--Section Heading Start-->
+            <div class="row d-flex justify-content-center">
+              <div class="col-12 col-md-11 col-lg-12 col-xl-7">
+                <h2 class="sub-section">Other Activities</h2>
+              </div>
+            </div>
+            <!--Section Heading End-->
+
+            <!--Location Start-->
+            <div class="row d-flex flex-wrap justify-content-center">
+              <div class="col-12 col-md-11 col-lg-6 col-xl-7">
+                <h4>Location Name</h4>
+                <img src="./resources/css/other_activities/other_activities.jpg" alt="" class="w-100 mt-3">    
+              </div>
+              <div class="col-12 col-md-11 col-lg-6 col-xl-7">
+                <p class="act_descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Laborum, iusto maxime nihil corporis aperiam vero provident aut incidunt 
+                  non sit consequatur similique sequi consectetur! Non blanditiis officia enim 
+                  nulla consequuntur et ipsam quas error temporibus repellendus, voluptatibus cumque, laborum pariatur.</p>
+              </div>
+            </div>
+            <div class="row justify-content-center logistics text-center">
+              <div class="col-10 col-md-3 col-lg-4 col-xl-12"><a href="">www.website.com</a></div>
+              <div class="col-10 col-md-3 col-lg-4 col-xl-12"><a href="" id="address">123 Fake Street <br>Orlando, FL 32819</a></div>
+              <div class="col-10 col-md-3 col-lg-4 col-xl-12"><a href="">(407) 555-5555</a></div>
+            </div>
+            <!--Location End-->
+
+            <div class="row d-flex justify-content-center">
+              <div class="col-10 col-md-6 my-3">
+                <hr>
+              </div>
+            </div>
+            
+            <!--Section End-->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Accordion End-->
 
             <!--Section Start-->
             
@@ -236,54 +462,17 @@
 
   
   <!-- Menu Toggle Script -->
-  
+
+
   <script>
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos || currentScrollPos === 0 && screen.width < 767.98) {
-        document.getElementById("mobile-navbar").style.top = "0";
-      } else {
-        document.getElementById("mobile-navbar").style.top = "-50px";
-      }
-      prevScrollpos = currentScrollPos;
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "300px";
     }
-
-      // Get the sideNav
-      var sideNav = document.getElementById('mobile-navbar');
-
-      // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
-        if (event.target == sideNav) {
-          modal.style.display = "none";
-        }
-      }
-
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
     </script>
-    <script>
-      $(".modal").on('show.bs.modal', function () {
-          var firstItem = $(this).find(".carousel-item:first");
-          if ( !firstItem.hasClass("active") ) {
-            $(this).find(".active").removeClass("active");
-            firstItem.addClass("active");
-          }
-      });
-  </script>
-
-  <script>
-$(window).scroll(function () {
-   var position = window.pageYOffset;
-   $('.nav-section').each(function () {
-     var target = $(this).offset().top-100;
-     var id = $(this).attr('id');
-     var navLinks = $('nav li a');
-     if (position >= target) {
-       navLinks.removeClass('current');
-       $('nav li a[href="#' + id + '"]').addClass('current');
-     }
-   });
-});
-  </script>
   
 </body>
 
