@@ -218,6 +218,21 @@
     font-size: 28px; 
   }
 
+  .rsvp-btn {
+    color: rgb(148, 190, 157) !important;
+    border-color:rgb(148, 190, 157) !important;
+    border-width: 2px;
+    font-weight: bold;
+  }
+
+  .rsvp-btn a {
+    margin: 0 auto;
+    width: 150px;
+    padding: 0 !important;
+  }
+
+
+
   select:focus{
     color:#333333;
     border:10px solid red;
@@ -258,6 +273,7 @@
   .mobile-nav-link {
     font-size: 16px;
     font-family: 'gothamnarrssm';
+    font-weight: bold;
   }
 
   .sidenav {
@@ -283,6 +299,8 @@
     transition: 0.3s;
   
   }
+
+
   
   .sidenav a:hover{
     color: #f1f1f1;
